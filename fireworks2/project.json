@@ -1,0 +1,86 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "[img]https://i.imgur.com/BktfQLs.png[/img]\r\nThis is the most realistic CGI fireworks as a wallpaper. It continuously fires off random explosions for an mesmerizing & fun fireworks show. Check out all of settings. Clicking on the screen will also set off explosions. Enjoy!\r\nTry changing the background color and/or select your own custom picture to experience a better fireworks. Checkout all of the image customization :)\r\nEnjoy!\r\n                                                           [img]https://i.imgur.com/3u98LK6.gif[/img]\r\n                                                         [img]https://i.imgur.com/aaFNJIj.gif[/img]\r\n[img]https://i.imgur.com/BktfQLs.png[/img]",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"background_image" : 
+			{
+				"order" : 120,
+				"text" : "Background Image",
+				"type" : "file",
+				"value" : ""
+			},
+			"blur" : 
+			{
+				"condition" : "background_image.value != ''",
+				"max" : 10,
+				"min" : 0,
+				"order" : 160,
+				"text" : "Blur",
+				"type" : "slider",
+				"value" : 0
+			},
+			"contrast" : 
+			{
+				"condition" : "background_image.value != ''",
+				"max" : 200,
+				"min" : 50,
+				"order" : 170,
+				"text" : "Contrast",
+				"type" : "slider",
+				"value" : 100
+			},
+			"fit_screen" : 
+			{
+				"condition" : "background_image.value != ''",
+				"order" : 130,
+				"text" : "Fit to Screen",
+				"type" : "bool",
+				"value" : false
+			},
+			"grayscale" : 
+			{
+				"condition" : "background_image.value != ''",
+				"max" : 100,
+				"min" : 0,
+				"order" : 150,
+				"text" : "Grayscale",
+				"type" : "slider",
+				"value" : 0
+			},
+			"invert" : 
+			{
+				"condition" : "background_image.value != ''",
+				"order" : 140,
+				"text" : "Invert",
+				"type" : "bool",
+				"value" : false
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"sound" : 
+			{
+				"order" : 100,
+				"text" : "Sound",
+				"type" : "bool",
+				"value" : false
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "CGI" ],
+	"title" : "Fireworks II",
+	"type" : "Web",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "1858339406",
+	"workshopurl" : "steam://url/CommunityFilePage/1858339406"
+}
